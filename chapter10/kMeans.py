@@ -20,3 +20,4 @@ def randCent(dataMat, k):
 		rangeJ = float(max(dataSet[:,j]) - minJ)
 		centroids[:,j] = minJ + rangeJ * random.rand(k,1)
 	return centroids
+	
